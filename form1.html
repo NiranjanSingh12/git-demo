@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .p{
+            color: blue;
+        }
+        #g{
+            border: 1px solid black;
+            background-color: blueviolet;
+        }
+        .R{
+            color: red;
+        }
+        .G{
+            color: green;
+        }
+        .B{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label style="color: red;">User Name:</label>
+        <input type="text" placeholder="User name" style="border: 1px solid green;" required> <br><br>
+        <label>Date of Birth:</label>
+        <input type="date"required> <br> <br>
+        <label class="p">Password:</label>
+        <input type="password" placeholder="Password" required> <br> <br>
+        <label >Email:</label>
+        <input type="text" placeholder="Email" required> <br> <br>
+        <label class="p">Age:</label>
+        <input type="number" placeholder="Age"> <br> <br>
+        <label id="g">Gender:</label>
+        <label for="gender_m">M</label>
+        <input type="radio" name="gender" id="gender_m">
+        <label for="gender_f">F</label>
+        <input type="radio" name="gender" id="gender_f"> <br> <br>
+        <label for="color">Favorite Color</label>
+        <select id="color">
+            <option value="RED" class="R"></option>
+            <option value="GREEN" class="G"></option>
+            <option value="BLUE" class="B"></option>
+            <option value="BLACK"></option>
+            <option value="PINK"></option>
+            <option value="YELLOW"></option>
+        </select> <br><br>
+        <label>Training place</label>
+        <input type="text" value="Newton School" readonly> <br><br><br><br>
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>

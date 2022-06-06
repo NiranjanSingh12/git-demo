@@ -1,0 +1,18 @@
+body{
+    background-image:url('/dog.jpg');
+    background-repeat: no-repeat;
+    /* margin: 20px;
+    padding:20px;
+    color: #fff;
+    opacity:0.9 ;
+    */
+} 
+.para1{
+    border: 1px solid red ;
+    width: 250px;
+    height: 150px ; 
+    text-overflow: clip;
+    word-break: break-all;
+    /* writing-mode: vertical-lr; */
+    word-wrap: break-word;
+}

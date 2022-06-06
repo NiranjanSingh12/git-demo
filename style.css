@@ -1,0 +1,9 @@
+section p{
+    color: red;
+}
+div{
+    color: blue;
+}
+article> p{
+color: green;
+}
